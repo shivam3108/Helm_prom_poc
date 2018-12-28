@@ -3,7 +3,7 @@ entries:
   alertmanager:
   - apiVersion: v1
     appVersion: 0.15.1
-    created: 2018-12-28T08:42:45.035418812Z
+    created: 2018-12-28T10:19:48.001342453Z
     description: Alertmanager instance created by the CoreOS Prometheus Operator
     digest: 0ed9d67ff4ae172077463e4bade76190ab8cbb361939608a27e4a0382d296ade
     engine: gotpl
@@ -20,20 +20,20 @@ entries:
     - https://github.com/coreos/prometheus-operator
     - https://github.com/prometheus/alertmanager
     urls:
-    - alertmanager-0.1.7.tgz
+    - https://github.com/shivam3108/Helm_prom_poc.git/alertmanager-0.1.7.tgz
     version: 0.1.7
   exporter-coredns:
   - apiVersion: v1
-    created: 2018-12-28T08:42:45.036484117Z
+    created: 2018-12-28T10:19:48.001546554Z
     description: A Helm chart for coredns metrics
     digest: 2a31ef7e760f521f5602aa48ecd1adbea771085b1c432c74cc69337bd8c85061
     name: exporter-coredns
     urls:
-    - exporter-coredns-0.0.3.tgz
+    - https://github.com/shivam3108/Helm_prom_poc.git/exporter-coredns-0.0.3.tgz
     version: 0.0.3
   exporter-kube-api:
   - apiVersion: v1
-    created: 2018-12-28T08:42:45.037316521Z
+    created: 2018-12-28T10:19:48.001761155Z
     description: A Helm chart for Kubernetes
     digest: a35b1428abac8825b3c0ff1e5ccd18a01f12eac6dfadbeb2447aa9a0530319b6
     maintainers:
@@ -41,11 +41,11 @@ entries:
       name: Cloud Posse LLC
     name: exporter-kube-api
     urls:
-    - exporter-kube-api-0.1.1.tgz
+    - https://github.com/shivam3108/Helm_prom_poc.git/exporter-kube-api-0.1.1.tgz
     version: 0.1.1
   exporter-kube-controller-manager:
   - apiVersion: v1
-    created: 2018-12-28T08:42:45.037930324Z
+    created: 2018-12-28T10:19:48.003073461Z
     description: A Helm chart for Kubernetes
     digest: 404b871defb699d95aef05a0b9428061fb64fa2a7d46dfdcbfa5cca357714453
     maintainers:
@@ -55,11 +55,11 @@ entries:
       name: Giancarlo Rubio
     name: exporter-kube-controller-manager
     urls:
-    - exporter-kube-controller-manager-0.1.10.tgz
+    - https://github.com/shivam3108/Helm_prom_poc.git/exporter-kube-controller-manager-0.1.10.tgz
     version: 0.1.10
   exporter-kube-dns:
   - apiVersion: v1
-    created: 2018-12-28T08:42:45.038436327Z
+    created: 2018-12-28T10:19:48.003721564Z
     description: A Helm chart singleton for kube-state-metrics
     digest: e3ea4723e6a08cfaa88444687a8eb7a311398dcd74aaa72e340fd718aa1aab28
     maintainers:
@@ -69,11 +69,11 @@ entries:
       name: Giancarlo Rubio
     name: exporter-kube-dns
     urls:
-    - exporter-kube-dns-0.1.7.tgz
+    - https://github.com/shivam3108/Helm_prom_poc.git/exporter-kube-dns-0.1.7.tgz
     version: 0.1.7
   exporter-kube-etcd:
   - apiVersion: v1
-    created: 2018-12-28T08:42:45.038915429Z
+    created: 2018-12-28T10:19:48.004294167Z
     description: A Helm chart for Kubernetes
     digest: d792d12a8ab445c910f9a791157e45400d2eadc54ce4e3af01954c9ef95647e6
     maintainers:
@@ -81,11 +81,11 @@ entries:
       name: Giancarlo Rubio
     name: exporter-kube-etcd
     urls:
-    - exporter-kube-etcd-0.1.15.tgz
+    - https://github.com/shivam3108/Helm_prom_poc.git/exporter-kube-etcd-0.1.15.tgz
     version: 0.1.15
   exporter-kube-scheduler:
   - apiVersion: v1
-    created: 2018-12-28T08:42:45.039534032Z
+    created: 2018-12-28T10:19:48.00488187Z
     description: A Helm chart singleton for kube-state-metrics
     digest: 47bd102582919c53aa88f3de530aed473f281c2bbcf9eadd9a9af4b67f75e79e
     maintainers:
@@ -95,11 +95,11 @@ entries:
       name: Giancarlo Rubio
     name: exporter-kube-scheduler
     urls:
-    - exporter-kube-scheduler-0.1.9.tgz
+    - https://github.com/shivam3108/Helm_prom_poc.git/exporter-kube-scheduler-0.1.9.tgz
     version: 0.1.9
   exporter-kube-state:
   - apiVersion: v1
-    created: 2018-12-28T08:42:45.040196335Z
+    created: 2018-12-28T10:19:48.005667173Z
     description: A Helm chart singleton for kube-state-metrics
     digest: c88624ec35462991a795d327849f8d754be3972b29078e0d4c3b3709d394cf8e
     maintainers:
@@ -107,11 +107,11 @@ entries:
       name: Giancarlo Rubio
     name: exporter-kube-state
     urls:
-    - exporter-kube-state-0.2.6.tgz
+    - https://github.com/shivam3108/Helm_prom_poc.git/exporter-kube-state-0.2.6.tgz
     version: 0.2.6
   exporter-kubelets:
   - apiVersion: v1
-    created: 2018-12-28T08:42:45.040825638Z
+    created: 2018-12-28T10:19:48.006120575Z
     description: A Helm chart for Kubernetes
     digest: db32c5e1bf4fc3184233eb19ac3df9feccb5e797416ccd9b14fc35697772bb58
     maintainers:
@@ -121,11 +121,11 @@ entries:
       name: Giancarlo Rubio
     name: exporter-kubelets
     urls:
-    - exporter-kubelets-0.2.11.tgz
+    - https://github.com/shivam3108/Helm_prom_poc.git/exporter-kubelets-0.2.11.tgz
     version: 0.2.11
   exporter-kubernetes:
   - apiVersion: v1
-    created: 2018-12-28T08:42:45.04121864Z
+    created: 2018-12-28T10:19:48.006800479Z
     description: A Helm chart for Kubernetes
     digest: 301501704edecf18c032169076d0583ed4f6012aa338770bca72f14b5f174ca1
     maintainers:
@@ -133,12 +133,12 @@ entries:
       name: Giancarlo Rubio
     name: exporter-kubernetes
     urls:
-    - exporter-kubernetes-0.1.10.tgz
+    - https://github.com/shivam3108/Helm_prom_poc.git/exporter-kubernetes-0.1.10.tgz
     version: 0.1.10
   exporter-node:
   - apiVersion: v1
     appVersion: 0.14.0
-    created: 2018-12-28T08:42:45.041628442Z
+    created: 2018-12-28T10:19:48.007338281Z
     description: A Helm chart for Kubernetes node exporter
     digest: df021054626a0e448493d4181c0bb5aa0c4ef5a982d83dc7f858068c434f51e5
     home: https://github.com/prometheus/node-exporter
@@ -153,12 +153,12 @@ entries:
     sources:
     - https://github.com/prometheus/node-exporter
     urls:
-    - exporter-node-0.4.6.tgz
+    - https://github.com/shivam3108/Helm_prom_poc.git/exporter-node-0.4.6.tgz
     version: 0.4.6
   grafana:
-  - created: 2018-12-28T08:42:45.042669747Z
+  - created: 2018-12-28T10:19:48.008370886Z
     description: Grafana instance for kube-prometheus
-    digest: b364f4e5c18103c1a7d0ba4ffbf17f46382ae6d195b737abc1e25fe9d5a85386
+    digest: 85f4e74855d59830d9cae7c427aff08aa251e605665a20f7a563afcadf53bf9a
     engine: gotpl
     maintainers:
     - email: weiwei.inf@gmail.com
@@ -169,11 +169,11 @@ entries:
     sources:
     - https://github.com/coreos/prometheus-operator
     urls:
-    - grafana-0.0.37.tgz
+    - https://github.com/shivam3108/Helm_prom_poc.git/grafana-0.0.37.tgz
     version: 0.0.37
   kube-prometheus:
   - apiVersion: v1
-    created: 2018-12-28T08:42:45.046624766Z
+    created: 2018-12-28T10:19:48.012133403Z
     description: Manifests, dashboards, and alerting rules for end-to-end Kubernetes
       cluster monitoring.
     digest: 601056ec217916ac0dbc8acfe54d685e2fb56e6f101fdb0b0d99e59f604e7405
@@ -185,11 +185,11 @@ entries:
     sources:
     - https://github.com/coreos/prometheus-operator
     urls:
-    - kube-prometheus-0.0.105.tgz
+    - https://github.com/shivam3108/Helm_prom_poc.git/kube-prometheus-0.0.105.tgz
     version: 0.0.105
   prometheus:
   - apiVersion: v1
-    created: 2018-12-28T08:42:45.047172269Z
+    created: 2018-12-28T10:19:48.012846507Z
     description: Prometheus instance created by the CoreOS Prometheus Operator
     digest: 8a92b5b94c441c791c23592262a0cc1d8e58cbdcb456df931dc15544413335c0
     engine: gotpl
@@ -200,12 +200,12 @@ entries:
     sources:
     - https://github.com/coreos/prometheus-operator
     urls:
-    - prometheus-0.0.51.tgz
+    - https://github.com/shivam3108/Helm_prom_poc.git/prometheus-0.0.51.tgz
     version: 0.0.51
   prometheus-operator:
   - apiVersion: v1
     appVersion: 0.20.0
-    created: 2018-12-28T08:42:45.047617471Z
+    created: 2018-12-28T10:19:48.013756011Z
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: c0f44f01a108a16e5407bf36869eca610736cb928ed34c5f838aef004555b57d
@@ -221,6 +221,6 @@ entries:
     sources:
     - https://github.com/coreos/prometheus-operator
     urls:
-    - prometheus-operator-0.0.29.tgz
+    - https://github.com/shivam3108/Helm_prom_poc.git/prometheus-operator-0.0.29.tgz
     version: 0.0.29
-generated: 2018-12-28T08:42:45.034651008Z
+generated: 2018-12-28T10:19:48.00068645Z
